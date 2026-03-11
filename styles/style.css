@@ -99,6 +99,7 @@
   border: 2px solid transparent;
   background: none;
   transition: 0.3s ease;
+  height: 38px;
 }
 
 .button__text {
@@ -131,7 +132,7 @@
   -webkit-text-stroke: 1px #fff;
 }
 
-@supports (text-stroke: 1px) {
+@supports (text-stroke: 1px #fff) {
   .img__label {
     text-shadow: none;
     -webkit-text-stroke: none;
@@ -235,10 +236,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px 0 0 #000;
-}
-
-.card__icon-button {
-  height: 38px;
 }
 
 .card__icon-button:focus {
