@@ -59,16 +59,14 @@
   padding-block: 4px;
   color: #000;
   font-family: var(--font-main);
-  font-weight: var(--font-Inter-h);
   font-size: 18px;
   line-height: 1.2;
 }
 
 .card__text {
-  font-variation-settings: "wght" var(--font-main);
+  font-variation-settings: "wght" var(--font-Inter-text);
   color: #000;
   font-family: var(--font-main);
-  font-weight: var(--font-Inter-text);
   font-size: 18px;
   line-height: 1.17;
 }
