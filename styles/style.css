@@ -8,6 +8,7 @@
   min-inline-size: 320px;
   background-attachment: fixed;
   min-block-size: 100dvb;
+  font-variation-settings: "wght" var(--font-Inter-text);
 }
 
 .header {
@@ -53,7 +54,7 @@
 }
 
 .card__title {
-  font-variation-settings: "wght" var(--font-main);
+  font-variation-settings: "wght" var(--font-Inter-h);
   padding-inline: 10px;
   padding-block: 4px;
   color: #000;
@@ -65,7 +66,6 @@
 .card__text {
   color: #000;
   font-family: var(--font-main);
-  font-variation-settings: "wght" var(--font-Inter-text);
   font-size: 18px;
   line-height: 1.17;
 }
